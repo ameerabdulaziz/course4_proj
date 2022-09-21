@@ -42,6 +42,7 @@ class Dev(Configuration):
         'django.contrib.messages',
         'django.contrib.staticfiles',
 
+        'gh',
         'movies',
     ]
 
