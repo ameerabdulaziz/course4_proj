@@ -43,6 +43,7 @@ class Dev(Configuration):
         'django.contrib.staticfiles',
 
         'django_celery_results',
+        'django_extensions',
 
         'gh',
         'movies',
@@ -162,3 +163,7 @@ class Dev(Configuration):
     # Celery configuration
     CELERY_RESULT_BACKEND = 'django-db'
     CELERY_BROKER_URL = 'redis://localhost:6379/0'
+
+    # Console email backend
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+    ADMINS = [("Ben", "ben@example.com")]
