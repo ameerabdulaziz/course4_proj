@@ -7,6 +7,15 @@ name = "pypi"
 django = "*"
 django-configurations = "*"
 requests = "*"
+celery = "*"
+django-celery-results = "*"
+github = "*"
+pygithub = "*"
+django-extensions = "*"
+ipython = "*"
+werkzeug = "*"
+redis = "*"
+django-celery-beat = "*"
 
 [dev-packages]
 
